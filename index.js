@@ -65,7 +65,7 @@ async function askName() {
     if (isCorrect) {
       spinner.success({ text: `Nice work ${playerName}. That's a legit answer` });
     } else {
-      spinner.error({ text: `💀💀💀 Game over, you die ${playerName}!` });
+      spinner.error({ text: `💀💀💀 WASTED ${playerName}!` });
       process.exit(1);
     }
   }
